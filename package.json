@@ -1,7 +1,11 @@
 {
   "name": "express-attributes",
-  "version": "1.0.3",
-  "main": "bin/index.js",
+  "version": "1.0.4",
+  "main": "./lib/index.js",
+  "files": [
+    "./lib/**/*"
+  ],
+  "types": "./lib/index.d.ts",
   "license": "MIT",
   "homepage": "https://github.com/jackall3n/express-attributes",
   "repository": {
