@@ -1,6 +1,6 @@
 import { Application, Router } from 'express';
 
-export default (app: Application | any, controllers: any[]) => {
+function applyControllers(app: Application | any, controllers: any[]) {
   for (const C of controllers) {
     const router = <any>Router();
     const { __ROUTER__, __ROUTES__ } = C.prototype.constructor;
@@ -30,3 +30,5 @@ export default (app: Application | any, controllers: any[]) => {
     app.use(path, router);
   }
 }
+
+export { applyControllers };
