@@ -1,8 +1,11 @@
 {
   "name": "express-attributes",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bin/index.js",
   "license": "MIT",
+  "scripts": {
+    "build" : "tsc"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
