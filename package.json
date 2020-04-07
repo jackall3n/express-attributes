@@ -1,8 +1,13 @@
 {
   "name": "express-attributes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "bin/index.js",
   "license": "MIT",
+  "homepage": "https://github.com/jackall3n/express-attributes",
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/jackall3n/express-attributes"
+  },
   "scripts": {
     "build": "tsc"
   },
